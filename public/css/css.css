@@ -1,19 +1,60 @@
 /* ------------ DEFAULTS ------------------*/
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "museo-sans-condensed", sans-serif;	
+}
+
+
+
+p {
+	font-family: "alegreya", serif;	
+	font-size: .85em;
+	line-height: 1.25em;
+}
+
+h1 {
+	font-size: 3em;	
+	font-weight: 500;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 2.2em;
+}
+
+h3 { 
+	font-size: 1.4em;
+	
+}
+
+h4 {
+	font-size: 1.2em
+}
+
+h5 {
+	font-size: 1em
+}
+
+h6 {
+	font-size: 1.5em
+}
+
 body,html {
 height:100%;
 }
 
 body {
 margin:0 auto;
+font-size: 1.5em;
 }
 
 #body-wrapper {
-min-height:100%;
+min-height:70%;
 height:auto !important;
 height:100%;
-margin:0 auto 200px;
+margin:0 auto;
 position:relative;
+
 }
 
 body.disco-seo #header {
@@ -25,16 +66,1140 @@ top:0;
 width:100%;
 }
 
+ul.title-area {
+	background: white;
+}
+.top-bar .name h1 {
+	background: white;	
+}
+
+.top-bar .name h1 a {
+	color: black;
+	background: white;
+}
+
+nav.top-bar {
+	background: white;
+	font-family: "alegreya", serif;
+	color: black; 	
+}
+.top-bar-section ul {
+	background: white;
+}
+.top-bar .toggle-topbar.menu-icon a span {
+	box-shadow: 0 10px 0 1px #000,0 16px 0 1px #000,0 22px 0 1px #000;
+}
+
+.top-bar-section li a:not(.button) {
+	background: white;
+	font-family: "alegreya", serif;
+	color: black;
+}
+.top-bar-section li a:not(.button):hover {
+	background: #E6E7E8;
+	font-family: "alegreya", serif;
+	color: black;
+}
+
+.top-bar-section .has-dropdown>a:after {
+	border-color: rgba(0,0,0,0.4) transparent transparent transparent;
+}
+	
+
+.top-bar-section .dropdown li.title h5 a {
+	color: black;
+}
+
+
 #body {
 position:absolute;
 width:100%;
 }
 
+
 #footer {
 width:100%;
 }
 
-#footer,#footer-spacing {
-height:200px;
+
+
+.footer {
+text-align: center;	
 }
+
+.footer li {
+display: inline-block;
+font-size: .5em;
+color: #666;
+padding: 5% 5%;
+}
+
+
+
+figcaption {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	padding: 2% 0 5% 0;
+}
+
+/*--------This ends the defaults------------*/
+
+/*--------Navigation styling------------*/
+
+
+
+/*-----------ending the navigation styling--------------*/
+
+
+/*------------begins the Video/Intro paragraph styling------------*/
+
+#slide1 {
+	width: 100%;
+	padding: 0;
+}
+
+#homepagevideo {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#homepagevideo video {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -1000;
+}
+
+#homepageintro h1 {
+	margin: 0;
+	line-height: 1.5em;
+	color: #000000;	
+	padding: 5% 0 25% 0;
+}
+
+#homepageintro h2 {
+	margin: 0;
+	line-height: 1.1em;
+	font-weight: 100;
+	color: #000000;	
+	width: 100%;
+}
+#homepageintro h3 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1em;
+	font-weight: 100;
+	color: #000000;
+	width: 100%;	
+}
+
+
+#homepageintro p {
+	margin: 0 0 0 0;
+	color: #000000;
+	width: 100%;	
+	padding: 0 20%;	
+}
+
+#homepageintro a {
+	font-family: "alegreya", serif;	
+	color: #808285;
+	font-size: .75em;
+	font-style: italic;
+	padding: 0 0 10% 0;
+}
+#homepageintro a:hover {
+	font-family: "alegreya", serif;	
+	color: #000000;
+	font-size: .75em;
+}
+
+
+#homepageintro {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	
+}
+#fixed-bottom-anchor p {
+	position: fixed;
+	bottom: 3%;
+	center: 0%;
+	padding: 0 20%;
+	margin: 0 0 0 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.0);	
+	font-family: "alegreya", serif;	
+	font-color: #ffffff;
+}
+#fixed-bottom-anchor a {
+	color: #000000;	
+	
+}
+#animationModal {
+	z-index: 1000;	
+}
+
+
+/*--------This begins the contact page styling, very similar to the homepage----*/
+
+
+#contactpagevideo {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#contactpagevideo video {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -1000;
+}
+
+#contactpageintro h1 {
+	margin: 0;
+	line-height: 1.5em;
+	color: #ffffff;	
+	padding: 5% 0 25% 0;
+}
+
+#contactpageintro h2 {
+	margin: 0;
+	line-height: 1.1em;
+	font-weight: 100;
+	color: #ffffff;	
+	width: 100%;
+}
+#contactpageintro h3 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1em;
+	font-weight: 100;
+	color: #ffffff;
+	width: 100%;	
+}
+
+
+#contactpageintro p {
+	margin: 0 0 0 0;
+	color: #ffffff;
+	width: 100%;	
+	padding: 0 20% 10% 20%;	
+}
+
+.important {
+	font-style: italic;
+	font-size: 2em;
+}
+
+
+#contactpageintro {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	
+}
+
+
+
+
+/*------ending-------*/
+
+
+/*-----------Magellan destination styling----------*/
+
+.magellan3destination {
+	display: none;
+	margin: 100px 0 0 0;
+}
+
+/*---------This is the styling for the Cool Kitten Slides on the homepage------*/
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+	background-repeat: no-repat;
+}
+
+
+
+/* Slide 1 */ 
+
+#slide1{
+	
+}
+
+
+
+/* Slide 2 */ 
+
+#slide2{
+	background-image:url('../images/lumen-branded-display-1-v1.jpg');
+	background-size: 100%;
+	color:#ffffff;
+}
+
+
+/* Slide 3 */ 
+
+#slide3{
+	background-color:#ffffff;
+}
+
+
+#test{
+	background-color:#bde2df;
+	color:#ffffff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 4 */
+
+#slide4{
+	background-image:url('../images/sunglasses.png');
+	background-color:#8a8683;
+	color:#ffffff;
+}
+
+
+/*-------ends the Cool Kitten slide styling for the homepage----------*/
+
+
+
+/*-------this is the styling for the index page of PORTFOLIO------*/
+
+#portfolio div {
+	padding: 0;
+	
+}
+
+
+#firstproject {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#firstproject:hover {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index.png") no-repeat center;
+}
+
+#secondproject {
+	background:url("../images/ivdimensions/portfolio/relic-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#secondproject:hover {
+	background:url("../images/ivdimensions/portfolio/relic-port-index.png") no-repeat center;
+}
+
+#thirdproject {
+	background:url("../images/ivdimensions/portfolio/manconsent-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#thirdproject:hover {
+	background:url("../images/ivdimensions/portfolio/manconsent-port-index.png") no-repeat center;
+}
+
+#fourthproject {
+	background:url("../images/ivdimensions/portfolio/perversion-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#fourthproject:hover {
+	background:url("../images/ivdimensions/portfolio/perversion-port-index.png") no-repeat center;
+}
+
+#fifthproject {
+	background:url("../images/ivdimensions/portfolio/ourquango-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#fifthproject:hover {
+	background:url("../images/ivdimensions/portfolio/ourquango-port-index.png") no-repeat center;
+}
+
+#sixthproject {
+	background:url("../images/ivdimensions/portfolio/rhinos-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#sixthproject:hover {
+	background:url("../images/ivdimensions/portfolio/rhinos-port-index.png") no-repeat center;
+}
+
+
+#seventhproject {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#seventhproject:hover {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index.png") no-repeat center;
+}
+
+
+#eighthproject {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index-top.png") no-repeat center;
+	transition: background-image 1s ease-in-out;
+	width: 100%;
+	min-height: 400px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+#eighthproject:hover {
+	background:url("../images/ivdimensions/portfolio/lumen-port-index.png") no-repeat center;
+}
+
+/*----This ends the Portfolio Index page---------*/
+
+
+/*------This begins the Lumen project page------*/
+
+
+.quote {
+	font-family: "alegreya", sans-serif;	
+	font-size: 4em;
+	line-height: 3em;
+	padding: 10% 0 0 5%;
+	margin: 0;
+}
+
+
+#lumenbrand {
+	background:url("../images/lumen/lumenbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	float: left;
+	padding: 5% 0 10% 0;
+}
+
+
+#lumenintro h1 {
+	display: block;
+}
+
+
+
+#lumendescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+#lumenintro p {
+	padding: 5% 5% 0 0;	
+}
+
+#lumenintro a {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 0 0 0 0;
+}
+
+#lumenslide1 {
+	padding: 0 0 0 0;	
+}
+
+#lumenslide2 {
+	background-image:url('../images/lumen/lumen-template-parallax-bg.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+#lumenslide3  {
+	padding: 0;
+	margin: 0;	
+}
+
+#lumenstationery div {
+	padding: 0;
+	margin: 0;
+}
+
+
+#lumenslide {
+	width: 100%;
+}
+
+
+
+
+/*-----This ends the Lumen project page------*/
+
+
+/*-----This begins the Relic project page------*/
+
+#relicbrand {
+	background:url("../images/relic/relicbrand.png") no-repeat top;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	float: right;
+}
+
+#relicintro h1 {
+	display: block;
+}
+
+#relicintro p {
+	padding: 20% 0 0 0;
+}
+#relicintro a {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 0 0 0 5%;
+}
+
+#relicslide1 {
+	padding: 0 0 0 0;	
+}
+
+#relicslide2 {
+	background-image:url("../images/relic/relic-parallax.png");
+	background-size: 100%;
+	background-position: fixed;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+
+
+#relicdescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+/*-------This ends the Relic project page--------*/
+
+
+/*-----This begins the Manufacturing Consent project page------*/
+
+#manconsentbrand {
+	background:url("../images/manufacturingconsent/manconsentbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	float: right;
+}
+
+#manconsentintro h1 {
+	display: block;
+}
+#manconsentintro a {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 0 0 0 5%;
+	display: block;
+}
+#manconsentintro a:last-of-type {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 5% 0 0 5%;
+	display: block;
+}
+
+
+#manconsentdescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+#manconsentslide1 {
+	padding: 0 0 10%;	
+}
+
+#manconsentslide2 {
+	background-image:url('../images/manufacturingconsent/manconsent-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+/*-----This ends the Manufacturing Consent project page------*/
+
+
+/*----This begins the Perversion project page--------*/
+
+#perversionbrand {
+	background:url("../images/perversion/perversionbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	float: right;
+}
+
+#perversionintro h1 {
+	display: block;
+	
+}
+
+#perversionintro p:first-of-type {
+	padding: 25% 0 0 0;	
+}
+
+#perversionslide1 {
+	padding: 0 0 10%;	
+}
+
+#perversionslide2 {
+	background-image:url('../images/perversion/perversion-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+#perversiondescription h2, h3, p {
+	padding: 10% 0 0 4%;
+}
+
+/*---This ends the Perversion project page--------*/
+
+/*----This begins the Our Quango project page--------*/
+
+#ourquangobrand {
+	background:url("../images/quango/ourquangobrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	float: right;
+}
+
+#ourquangointro h1 {
+	display: block;
+}
+
+#ourquangointro a {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 0 0 0 5%;
+	display: block;
+}
+
+#ourquangoslide1 {
+	padding: 0 0 10%;	
+}
+
+#ourquangoslide2 {
+	background-image:url('../images/quango/ourquango-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+#ourquangodescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+
+
+/*---This ends the Our Quango project page--------*/
+
+/*----This begins the Rhinos project page--------*/
+
+#rhinobrand {
+	background:url("../images/rhinos/rhinosbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	padding: 0;
+	float: left;
+}
+
+#rhinointro h1 {
+	display: block;
+}
+
+#rhinoslide1 {
+	padding: 0 0 10%;	
+}
+
+#rhinoslide2 {
+	background-image:url('../images/rhinos/rhinos-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+#rhinodescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+
+/*---This ends the Rhinos project page--------*/
+
+/*----This begins the illustrations project page--------*/
+
+#illustrationsbrand {
+	background:url("../images/illustrations/rhinosbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 0 0 0;
+	padding: 0;
+	float: left;
+}
+
+#illustrationsintro h1 {
+	display: block;
+}
+
+#illustrationsslide1 {
+	padding: 0 0 10%;	
+}
+
+#illustrationsslide2 {
+	background-image:url('../images/illustrations/illustrations-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 300px;
+}
+
+#illustrationsdescription h2, h3, p {
+	padding: 0 0 0 4%;
+}
+
+
+/*---This ends the Rhinos project page--------*/
+
+
+
+/*---------This begins the MEDIA QUERIES!!!!!!!!!!!!!!!--------------*/
+/*---------This begins the MEDIA QUERIES!!!!!!!!!!!!!!!--------------*/
+/*---------This begins the MEDIA QUERIES!!!!!!!!!!!!!!!--------------*/
+
+
+@media only screen and (max-width: 320px){
+	.quote {
+	font-family: "alegreya", sans-serif;	
+	font-size: .75em;
+	line-height: 2em;
+	padding: 10% 0 0 5%;
+	margin: 10% 0 0 0;
+}
+	.important {
+	font-style: italic;
+	font-size: 1em;
+}
+	
+	figcaption {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	padding: 2% 0 5% 0;
+	font-size: .5em;
+}
+	
+	p {
+	font-size: .5em;
+}
+	
+	h1 {
+    margin: 1em 0;
+	font-size: 1.25em;
+	font-weight: 900;
+	font-style: normal;
+}
+
+	h2 {
+    margin: 0;
+	font-size: .75em;
+}
+
+	h3 {
+	font-size: .5em;
+}
+
+	h4 {
+    font-size: .4em;
+}
+
+	h5 {
+    
+}
+
+	h6 {
+    
+}	
+	
+	#lumenslide2 {
+	background-image:url('../images/lumen/lumen-template-parallax-bg.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 80px;	
+}	
+
+	#lumenbrand {
+	background:url("../images/lumen/lumenbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 5% 0 10% 0;
+}
+
+	
+	
+	#relicslide2 {
+	background-image:url("../images/relic/relic-parallax.jpg");
+	background-size: 100%;
+	background-position: fixed;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+	#relicbrand {
+	background:url("../images/relic/relicbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 0 0 10% 0;
+}
+
+	#relicintro p {
+	padding: 10% 0 0 0;	
+	
+}
+
+	#manconsentslide2 {
+	background-image:url('../images/manufacturingconsent/manconsent-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 50px;
+}
+
+	#manconsentbrand {
+	background:url("../images/manufacturingconsent/manconsentbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 0 0 10% 0;
+}
+
+	#manconsentintro p {
+	padding: 10% 0 0 0;	
+	
+}
+
+	#perversionslide2 {
+	background-image:url('../images/perversion/perversion-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 50px;
+}
+	
+	#perversionbrand {
+	background:url("../images/perversion/perversionbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 0 0 10% 0;
+}
+
+	#perversionintro p:first-of-type {
+	padding: 0 0 0 0;	
+	
+}
+
+	#ourquangoslide2 {
+	background-image:url('../images/quango/ourquango-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 50px;
+}
+
+	#ourquangobrand {
+	background:url("../images/quango/ourquangobrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 0 0 10% 0;
+}
+
+	#ourquangointro p {
+	padding: 10% 0 0 0;	
+	
+}
+
+	#rhinoslide2 {
+	background-image:url('../images/rhinos/rhinos-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 50px;
+}
+
+	#rhinobrand {
+	background:url("../images/rhinos/rhinosbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 100px;
+	float: left;
+	padding: 0 0 10% 0;
+}
+
+	#rhinointro p {
+	padding: 10% 0 0 0;	
+	
+}
+
+	#illustrationsslide2 {
+	background-image:url('../images/illustrations/illustrations-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 50px;
+}
+	
+	
+}
+
+@media only screen and (min-width: 321px) and (max-width: 800px){	
+	.quote {
+	font-family: "alegreya", sans-serif;	
+	font-size: 2em;
+	line-height: 3em;
+	padding: 0 0 0 5%;
+}
+	.important {
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+	figcaption {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	padding: 2% 0 5% 0;
+	font-size: .75em;
+}
+	
+	
+	p {
+	font-size: .75em;	
+		
+	}
+	
+	h1 {
+    margin: 1em 0;
+	font-size: 2.5em;
+	font-weight: 900;
+	font-style: normal;
+}
+
+	h2 {
+	font-size: 1.15em;
+}
+
+	h3 {
+    font-size: 1em;
+}
+
+	h4 {
+    font-size: .85em;
+}
+
+	h5 {
+    
+}
+
+	h6 {
+   	
+}	
+
+
+#lumenslide2 {
+	background-image:url('../images/lumen/lumen-template-parallax-bg.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;	
+}
+
+#lumenbrand {
+	background:url("../images/lumen/lumenbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 170px;
+	float: left;
+	padding: 0 0 0 0;
+}
+
+#lumenintro p {
+	padding: 10% 0 0 0;		
+}
+
+#relicslide2 {
+	background-image:url("../images/relic/relic-parallax.jpg");
+	background-size: 100%;
+	background-position: fixed;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}	
+
+#manconsentslide2 {
+	background-image:url('../images/manufacturingconsent/manconsent-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+#perversionslide2 {
+	background-image:url('../images/perversion/perversion-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+#perversionbrand {
+	background:url("../images/perversion/perversionbrand.png") no-repeat center;	
+	background-size: contain;
+	width: 100%;
+	min-height: 170px;
+	float: left;
+	padding: 0 0 0 0;
+}
+#perversionintro p:first-of-type {
+	padding: 0 0 0 0;		
+}
+
+
+#ourquangoslide2 {
+	background-image:url('../images/quango/ourquango-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+#rhinoslide2 {
+	background-image:url('../images/rhinos/rhinos-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+#illustrationsslide2 {
+	background-image:url('../images/illustrations/illustrations-parallax.jpg');
+	background-size: 100%;
+	color:#ffffff;
+	padding: 0;	
+	min-height: 100px;
+}
+
+
+}
+
+@media only screen and (min-width: 801px){
+	p {
+	font-size: .75em;	
+		
+}
+	
+	h1 {
+    margin: 1em 0;
+	font-size: 3.8em;	
+	font-weight: 900;
+	font-style: normal;
+}
+
+	h2 {
+    
+}
+
+	h3 {
+    
+}
+
+	h4 {
+    
+}
+
+	h5 {
+    
+}
+
+	h6 {
+    
+}	
+	
+	
+}
+
+
 

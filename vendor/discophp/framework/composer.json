@@ -1,0 +1,30 @@
+{
+    "name": "discophp/framework",
+    "description": "php framework",
+    "license": "Apache License V2",
+    "authors": [
+        {
+            "name": "Bradley Hamilton",
+            "email": "brad@bradleyhamilton.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.4.0",
+        "swiftmailer/swiftmailer":"v5.0.3",
+        "jeremeamia/superclosure":"~1.0",
+        "pimple/pimple":"3.0"
+    },
+    "autoload": {
+        "classmap":[
+            "core/",
+            "core/facades/",
+            "core/manage/",
+            "core/classes/"
+        ],
+        "psr-4": {
+            "Disco\\":"core/"
+        }
+    }
+    
+}
