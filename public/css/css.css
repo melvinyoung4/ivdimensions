@@ -98,13 +98,20 @@ nav.top-bar {
 .top-bar-section li a:not(.button):hover {
 	background: #E6E7E8;
 	font-family: "alegreya", serif;
-	color: black;
+	
 }
 
+.top-bar-section .has-dropdown:hover>a {
+	background: #E6E7E8;	
+}
 .top-bar-section .has-dropdown>a:after {
 	border-color: rgba(0,0,0,0.4) transparent transparent transparent;
+
 }
-	
+.top-bar-section .has-dropdown>a:after;hover {
+	border-color: rgba(0,0,0,0.4) transparent transparent transparent;
+	background: #E6E7E8;
+}	
 
 .top-bar-section .dropdown li.title h5 a {
 	color: black;
@@ -515,14 +522,15 @@ figcaption {
 }
 
 
-#lumenbrand {
+/*#lumenbrand {
 	background:url("../images/lumen/lumenbrand.png") no-repeat center;	
 	background-size: contain;
 	width: 100%;
 	min-height: 300px;
 	float: left;
 	padding: 5% 0 10% 0;
-}
+	margin: 5% 0 0 0;
+}*/
 
 
 #lumenintro h1 {
@@ -533,6 +541,16 @@ figcaption {
 
 #lumendescription h2, h3, p {
 	padding: 0 0 0 4%;
+	color: white;
+}
+
+#lumendescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#lumenintro p {
+	color: black;
+	padding: 5% 0 10% 5%;
 }
 
 #lumenintro p {
@@ -621,6 +639,16 @@ figcaption {
 
 #relicdescription h2, h3, p {
 	padding: 0 0 0 4%;
+	color: white;
+}
+
+#relicdescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#relicintro p {
+	color: black;
+	padding: 5% 0 10% 5%;
 }
 
 /*-------This ends the Relic project page--------*/
@@ -658,6 +686,16 @@ figcaption {
 
 #manconsentdescription h2, h3, p {
 	padding: 0 0 0 4%;
+	color: white;
+}
+
+#manconsentdescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#manconsentintro p {
+	color: black;
+	padding: 5% 0 10% 5%;
 }
 
 #manconsentslide1 {
@@ -708,7 +746,21 @@ figcaption {
 }
 
 #perversiondescription h2, h3, p {
-	padding: 10% 0 0 4%;
+	padding: 0 0 0 4%;
+	color: white;
+}
+#perversiondescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#perversionintro p {
+	padding: 5% 5% 0 5%;
+	color: black;
+}
+
+#perversionintro p:first-of-type {
+	color: black;
+	padding: 5% 5% 10% 5%;
 }
 
 /*---This ends the Perversion project page--------*/
@@ -749,9 +801,18 @@ figcaption {
 }
 
 #ourquangodescription h2, h3, p {
-	padding: 0 0 0 4%;
+	padding: 5% 0 0 4%;
+	color: white;
 }
 
+#ourquangodescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#ourquangointro p {
+	color: black;
+	padding: 5% 0 10% 5%;
+}
 
 
 /*---This ends the Our Quango project page--------*/
@@ -785,7 +846,17 @@ figcaption {
 }
 
 #rhinodescription h2, h3, p {
-	padding: 0 0 0 4%;
+	padding: 5% 0 0 4%;
+	color: white;
+}
+
+#rhinodescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#rhinointro p {
+	color: black;
+	padding: 5% 0 0 5%;
 }
 
 
@@ -803,7 +874,7 @@ figcaption {
 	float: left;
 }
 
-#illustrationsintro h1 {
+#illustrationsdescription h1 {
 	display: block;
 }
 
@@ -821,6 +892,16 @@ figcaption {
 
 #illustrationsdescription h2, h3, p {
 	padding: 0 0 0 4%;
+	color: white;
+}
+
+#illustrationsdescription h2 {
+	padding: 10% 0 5% 4%;	
+}
+
+#illustrationsintro p {
+	color: black;
+	padding: 5% 0 10% 5%;
 }
 
 
@@ -944,10 +1025,7 @@ figcaption {
 	padding: 0 0 10% 0;
 }
 
-	#manconsentintro p {
-	padding: 10% 0 0 0;	
 	
-}
 
 	#perversionslide2 {
 	background-image:url('../images/perversion/perversion-parallax.jpg');
@@ -988,11 +1066,7 @@ figcaption {
 	padding: 0 0 10% 0;
 }
 
-	#ourquangointro p {
-	padding: 10% 0 0 0;	
 	
-}
-
 	#rhinoslide2 {
 	background-image:url('../images/rhinos/rhinos-parallax.jpg');
 	background-size: 100%;
@@ -1010,10 +1084,7 @@ figcaption {
 	padding: 0 0 10% 0;
 }
 
-	#rhinointro p {
-	padding: 10% 0 0 0;	
 	
-}
 
 	#illustrationsslide2 {
 	background-image:url('../images/illustrations/illustrations-parallax.jpg');
@@ -1096,9 +1167,6 @@ figcaption {
 	padding: 0 0 0 0;
 }
 
-#lumenintro p {
-	padding: 10% 0 0 0;		
-}
 
 #relicslide2 {
 	background-image:url("../images/relic/relic-parallax.jpg");
