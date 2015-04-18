@@ -146,7 +146,7 @@ padding: 5% 5%;
 figcaption {
 	font-family: "alegreya", serif;
 	font-style: italic;
-	padding: 2% 0 5% 0;
+	padding: 2% 0 2% 0;
 }
 
 /*--------This ends the defaults------------*/
@@ -165,10 +165,18 @@ figcaption {
 	padding: 0;
 }
 
+
+
 #homepagevideo {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+#homepagewrap {
+	background:url('../videos/spinny-cube-for-homepage_1.gif') no-repeat top center;
+	background-size: 75%;
+	width: 100%;
 }
 
 #homepagevideo video {
@@ -191,6 +199,7 @@ figcaption {
 	font-weight: 100;
 	color: #000000;	
 	width: 100%;
+	padding: 15% 0 0 0;
 }
 #homepageintro h3 {
 	margin: 0;
@@ -550,7 +559,7 @@ figcaption {
 
 #lumenintro p {
 	color: black;
-	padding: 5% 0 10% 5%;
+	padding: 5% 5% 10% 0;
 }
 
 #lumenintro p {
@@ -612,14 +621,13 @@ figcaption {
 	display: block;
 }
 
-#relicintro p {
-	padding: 20% 0 0 0;
-}
+
 #relicintro a {
 	font-family: "alegreya", serif;
 	font-style: italic;
 	color: #818284;
-	padding: 0 0 0 5%;
+	padding: 0 0 5% 0;
+	margin: 0 0 5% 0;
 }
 
 #relicslide1 {
@@ -648,7 +656,7 @@ figcaption {
 
 #relicintro p {
 	color: black;
-	padding: 5% 0 10% 5%;
+	padding: 5% 5% 10% 0;
 }
 
 /*-------This ends the Relic project page--------*/
@@ -672,14 +680,7 @@ figcaption {
 	font-family: "alegreya", serif;
 	font-style: italic;
 	color: #818284;
-	padding: 0 0 0 5%;
-	display: block;
-}
-#manconsentintro a:last-of-type {
-	font-family: "alegreya", serif;
-	font-style: italic;
-	color: #818284;
-	padding: 5% 0 0 5%;
+	padding: 0 0 2% 0;
 	display: block;
 }
 
@@ -695,7 +696,7 @@ figcaption {
 
 #manconsentintro p {
 	color: black;
-	padding: 5% 0 10% 5%;
+	padding: 5% 5% 10% 0;
 }
 
 #manconsentslide1 {
@@ -754,13 +755,13 @@ figcaption {
 }
 
 #perversionintro p {
-	padding: 5% 5% 0 5%;
+	padding: 5% 5% 0 0;
 	color: black;
 }
 
 #perversionintro p:first-of-type {
 	color: black;
-	padding: 5% 5% 10% 5%;
+	padding: 5% 5% 0 0;
 }
 
 /*---This ends the Perversion project page--------*/
@@ -784,7 +785,7 @@ figcaption {
 	font-family: "alegreya", serif;
 	font-style: italic;
 	color: #818284;
-	padding: 0 0 0 5%;
+	padding: 0 0 0 0;
 	display: block;
 }
 
@@ -811,7 +812,7 @@ figcaption {
 
 #ourquangointro p {
 	color: black;
-	padding: 5% 0 10% 5%;
+	padding: 5% 5% 0 0;
 }
 
 
@@ -857,6 +858,14 @@ figcaption {
 #rhinointro p {
 	color: black;
 	padding: 5% 0 0 5%;
+}
+
+#rhinointro a {
+	font-family: "alegreya", serif;
+	font-style: italic;
+	color: #818284;
+	padding: 0 0 2% 5%;
+	display: block;
 }
 
 
@@ -930,7 +939,7 @@ figcaption {
 	figcaption {
 	font-family: "alegreya", serif;
 	font-style: italic;
-	padding: 2% 0 5% 0;
+	padding: 2% 0 2% 0;
 	font-size: .5em;
 }
 	
@@ -965,6 +974,9 @@ figcaption {
 	h6 {
     
 }	
+	
+
+	
 	
 	#lumenslide2 {
 	background-image:url('../images/lumen/lumen-template-parallax-bg.jpg');
@@ -1112,7 +1124,7 @@ figcaption {
 	figcaption {
 	font-family: "alegreya", serif;
 	font-style: italic;
-	padding: 2% 0 5% 0;
+	padding: 2% 0 2% 0;
 	font-size: .75em;
 }
 	
@@ -1149,6 +1161,11 @@ figcaption {
    	
 }	
 
+#homepagewrap {
+	background:url('../videos/spinny-cube-for-homepage_1.gif') no-repeat top center;
+	background-size: 85%;
+	width: 100%;
+}
 
 #lumenslide2 {
 	background-image:url('../images/lumen/lumen-template-parallax-bg.jpg');
